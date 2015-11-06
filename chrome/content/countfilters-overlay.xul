@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href='chrome://countfilters/content/countfilters.css' type='text/css'?>
+<overlay id="countfilters-overlay"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<script type="application/javascript" src="chrome://countfilters/content/countfilters.js"/>
+</overlay>

@@ -1,0 +1,4 @@
+.search-value-custom[searchAttribute^="countfilters#"] {
+  -moz-binding: url("chrome://countfilters/content/bindings.xml#filtertextbox");
+}
+

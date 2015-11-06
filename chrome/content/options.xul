@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+
+<!DOCTYPE prefwindow SYSTEM "chrome://countfilters/locale/countfilters.dtd">
+
+<prefwindow id="countFiltersOptions"
+            xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+            title="&prefs.title;">
+  <prefpane id="prefpane">
+    <preferences>
+      <preference id="pref_nbRecipients"
+                  name="extensions.countfilters.nbRecipients"
+                  type="bool"/>
+      <preference id="pref_nbBytes"
+                  name="extensions.countfilters.nbBytes"
+                  type="bool"/>
+      <preference id="pref_nbWords"
+                  name="extensions.countfilters.nbWords"
+                  type="bool"/>
+      <preference id="pref_nbLines"
+                  name="extensions.countfilters.nbLines"
+                  type="bool"/>
+      <preference id="pref_nbLinks"
+                  name="extensions.countfilters.nbLinks"
+                  type="bool"/>
+    </preferences>
+    <groupbox>
+        <caption label="&prefs.chooseFilters;"/>
+        <checkbox id="nbRecipients"
+                  label="&prefs.nbRecipients;"
+                  preference="pref_nbRecipients"/>
+        <checkbox id="nbBytes"
+                  label="&prefs.nbBytes;"
+                  preference="pref_nbBytes"/>
+        <checkbox id="nbWords"
+                  label="&prefs.nbWords;"
+                  preference="pref_nbWords"/>
+        <checkbox id="nbLines"
+                  label="&prefs.nbLines;"
+                  preference="pref_nbLines"/>
+        <checkbox id="nbLinks"
+                  label="&prefs.nbLinks;"
+                  preference="pref_nbLinks"/>
+      </groupbox>
+  </prefpane>
+</prefwindow>

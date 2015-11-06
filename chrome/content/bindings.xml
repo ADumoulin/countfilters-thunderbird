@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<bindings xmlns="http://www.mozilla.org/xbl"
+		  xmlns:xul="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+          xmlns:xbl="http://www.mozilla.org/xbl">
+  <binding id="filtertextbox">
+  	<resources>
+    	<stylesheet src="chrome://countfilters/content/countfilters.css"/>
+    </resources>
+    <content>
+    	<xul:textbox flex="1" class="search-value-textbox" type="number" min="0" xbl:inherits="disabled"
+      onclick="this.parentNode.setAttribute('value', this.value);"
+      oninput="this.parentNode.setAttribute('value', this.value);"/>
+    </content>
+    <implementation>
+     	<constructor>
+        <![CDATA[
+          let textbox = document.getAnonymousNodes(this)[0];
+          textbox.value = this.getAttribute("value");
+        ]]>
+     	</constructor>
+    </implementation>
+  </binding>
+</bindings>

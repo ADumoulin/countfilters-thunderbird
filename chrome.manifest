@@ -1,0 +1,9 @@
+content		countfilters  						chrome/content/
+locale  	countfilters 		en-US 			chrome/locale/en-US/
+locale  	countfilters 		fr-FR 			chrome/locale/fr-FR/
+
+overlay chrome://messenger/content/messenger.xul chrome://countfilters/content/countfilters-overlay.xul
+overlay  chrome://messenger/content/FilterEditor.xul chrome://countfilters/content/countfilters-overlay.xul
+overlay  chrome://messenger/content/SearchDialog.xul chrome://countfilters/content/countfilters-overlay.xul
+overlay  chrome://messenger/content/virtualFolderProperties.xul chrome://countfilters/content/countfilters-overlay.xul
+

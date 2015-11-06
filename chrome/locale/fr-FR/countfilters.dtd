@@ -1,0 +1,7 @@
+<!ENTITY prefs.title "Count Filters options">
+<!ENTITY prefs.chooseFilters "Choisir les filtres de recherche à inclure :">
+<!ENTITY prefs.nbRecipients "Nombre de destinataires">
+<!ENTITY prefs.nbBytes "Taille du corps (B)">
+<!ENTITY prefs.nbWords "Nombre de mots">
+<!ENTITY prefs.nbLines "Nombre de lignes">
+<!ENTITY prefs.nbLinks "Nombre de liens">
